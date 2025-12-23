@@ -1,0 +1,12 @@
+# Ignorar carpetas de compilación
+dist/
+build/
+__pycache__/
+*.spec
+
+# Ignorar archivos temporales de Excel (si tienes el reporte abierto)
+~$*.xlsx
+
+# Ignorar entornos virtuales (si usaras uno)
+venv/
+env/
